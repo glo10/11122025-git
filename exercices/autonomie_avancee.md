@@ -111,3 +111,15 @@ Depuis votre compte GitHub, à partir du dépôt où vous avez envoyé précéde
 
 PS : avec l'option `-d`, s'il y a des travaux qui n'ont pas été mergé sur la branche principale, *Git* empêchera la suppression. 
 Avec l'option `-D`, la suppression est immédiate peu importe l'état de la branche.
+
+---
+
+## Partie 8 : patchs
+
+Un collègue est très intéressé par votre sandwich végan qu'il vous demande de lui partager pour qu'il puisse l'utiliser dans son projet.
+
+1. Depuis la documentation de la commande `git format-patch`, créez un patch associé au commit qui a ajouté le sandwich dans le projet. L'extraction de votre patch doit se faire dans le dossier /patchs à la racine de votre projet.
+2. Créez un nouveau projet Git, en dehors du projet en cours.
+3. Effectuez un premier commit sur ce nouveau dépôt.
+4. Copiez/collez le dossier patchs/ d'un dépôt (celui d'extraction) à l'autre (vers le nouveau, celui qui va l'appliquer) 
+5. Appliquez le patch extrait du dossier /patchs dans le nouveau dépôt.

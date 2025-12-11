@@ -7,7 +7,6 @@
 Lors de l'installation, gardez les paramètres par défaut.
 [Téléchargez Git](https://git-scm.com/downloads)
 
-
 ### Installez l'éditeur de code Visual Studio Code
 
 [Téléchargez Visual Studio Code](https://code.visualstudio.com/Download)

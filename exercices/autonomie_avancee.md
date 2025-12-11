@@ -64,4 +64,11 @@
 ## Partie 4
 
 1. Fusionnez la branche *feature/ex-part1* dans la branche *main*.
+- En cas de conflit, résolvez le conflit en lisant le diapo du cours 57
 2. Fusionnez la branche *feature/ex-part2* dans la branche *main*.
+- En cas de conflit, résolvez le conflit en lisant le diapo du cours 57
+3. Créez une nouvelle branche *feature/ex-part4* à partir de la branche *main* propre.
+4. Modifiez le fichier *README.md* en ajoutant d'autres objets.
+5. Effectuez un commit en respectant les bonnes pratiques.
+6. Fusionnez la branche *feature/ex-part4* dans la branche *main*.
+7. Envoyez toutes vos modifications (branches *feature/ex-part1*, *feature/ex-part2*, *feature/ex-part3* et *main*) vers votre dépôt distant GitHub.

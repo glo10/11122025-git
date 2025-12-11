@@ -1,4 +1,4 @@
 admin
 cours
-exercices/*
-!/exercices/.gitkeep
+# exercices/*
+# !/exercices/.gitkeep

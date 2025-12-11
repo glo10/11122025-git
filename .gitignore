@@ -1,0 +1,4 @@
+admin
+cours
+exercices/*
+!/exercices/.gitkeep

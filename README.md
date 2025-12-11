@@ -56,6 +56,7 @@ Par convention l'alias se nomme `origin` mais si on le souhaite on peut le nomme
 - `git branch -m oldname newname`
 Exemple pour le renommage de la branche master en main :
 - `git branch -m master main`
+- `git branch -M main` : renommer la branche courante (pas besoin de spécifier l'ancien nom)
 
 6. Créer une branche (on ne peut pas créer une nouvelle branche tant qu'il n'y a pas au moins un commit dans notre dépôt) :
 - `git branch newBranch`

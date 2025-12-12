@@ -85,6 +85,10 @@ Pour résoudre le conflit :
 - Choisir une version du fichier (version de la branche A, version de la branche B, une résultante des 2 branches etc.) ;
 - Effectuer un commit.
 
+#### Illustration des branches
+
+![](./exercices/img/branches.png)
+
 ---
 
 ### État du dépôt

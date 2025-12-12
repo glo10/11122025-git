@@ -134,7 +134,7 @@ Vous allez préparer les fêtes de fin d'année pour cela, vous avez décidé de
 
 PS : Partie I à V en local, Partie VI depuis GitHub
 
-### Partie I : planter le décor
+### Partie 1 : planter le décor
 
 1. Pour chaque élément, créez une nouvelle branche et ajoutez le contenu puis effectuez un commit.
 Les différents fichiers sont :
@@ -145,30 +145,30 @@ Les différents fichiers sont :
 2. Votre entourage vous demande de créer une nouvelle playlist, vous décidez de créer une nouvelle playlist dans une nouvelle branche avec toujours la même appellation (playlist.md) et au même emplacement dans votre arborescence des dossiers
 3. Vous avez fini de remplir le contenu de vos fichiers depuis leur branche respective, vous décidez de tout fusionner dans *main* et résoudre le conflit sur les playlists
 
-### Partie II : modifier votre historique
+### Partie 2 : modifier votre historique
 
 4. Vous décidez de faire un rebase pour n'avoir qu'un seul commit de toutes les modifications que vous avez effectué sur votre projet en utilisant la commande `git rebase --help`
 
-### Partie III : partager votre travail dans un dossier d'extraction
+### Partie 3 : partager votre travail dans un dossier d'extraction
 
 5. Votre ami vous demande de lui partager des fichiers d'extractions de votre travail pour qu'il puisse les copier dans son projet.
 
-### Partie IV : Mettre de côté les films et séries
+### Partie 4 : Mettre de côté les films et séries
 
 6. Vous créez une nouvelle branche pour faire une sélection des films et séries à regarder durant ses vacances de fin d'année dans un fichier *netflix.md*. A 20% de la fin de cette
 liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre votre travail en cours, vous avez décidé de le mettre de côté, faire la modification de la playlist puis revenir sur les films et séries pour tout terminer.
 
-### Partie V : tags
+### Partie 5 : tags
 
 7. Vous décidez de versionner votre projet en y ajout des tags
 
-### Partie VI : GitHub
+### Partie 6 : GitHub
 
 8. Vous créez un dépôt distant ***PUBLIC*** sur GitHub pour envoyer tout votre travail
 9. Depuis GitHub, vous créez une nouvelle branche pour apporter une correction à votre menu
 10. Vous récupérez cette nouvelle branche en local pour y ajouter vos corrections
 
-### Partie VII : issue et Pull Request
+### Partie 7 : issue et Pull Request
 
 11. Vous partagez votre dépôt distant à **glo10**(invitation collaborateur sur GitHub avec le pseudo glo10) pour lui demander son avis en créant une issue depuis GitHub et lui assignant dessus.
 
@@ -177,8 +177,7 @@ liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre 
 ![iss1](./img/issue1.jpg)
 ![iss2](./img/issue2.jpg)
 
-### Partie VII : défaire et modifier un commit
+### Partie 8 : défaire et modifier un commit
 
 12. Finalement, les films et séries s'avèrent ne pas être une bonne idée, vous préférez faire des activités dehors, vous décidez de défaire uniquement les changements effectués lors de l'ajout du fichier *netflix.md*
 13. Le message de commit crée lors de l'action précédente ne vous convient pas, vous décidez de le supprimer ou de le modifier avant d'envoyer vos dernières mises à jour en ligne.
-

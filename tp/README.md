@@ -71,12 +71,20 @@ Vous pouvez utiliser les données [d'EuroSport](https://www.eurosport.fr/footbal
 2. Dans cette branche, créez un dossier winners/
 3. A l'intérieur de ce dossier, créez un fichier *[votre-prenom].md* contenant votre pronostic de l'équipe gagnante et effectuez un commit.
 4. Chaque collaborateur applique cette modification dans *main* par l'utilisation de la commande `git cherry-pick`
+5. Ajoutez un nouveau tag
 
 ---
 
 ## Partie V : introduction d'un bug dans le calendrier
 
+1. Le collaborateur glo10 a introduit un bug dans le calendrier depuis la branche *feature/calendar/bug*.
+2. Récupérez en local, la branche distante *feature/calendar/bug* et recherchez quand est-ce qu'à été introduit le mot ***bug*** dans le fichier.
+
 ---
 
 ## Partie VI : nettoyage
 
+1. Effectuez tous les merges des autres branches dans *main* en local
+2. Ajoutez un nouveau tag
+3. Sur GitHub, supprimmez toutes autres branches et gardez uniquement la branche *main*
+4. Supprimez également les autres branches que *main* en local dans chaque dépôt git local

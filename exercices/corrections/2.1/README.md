@@ -1,4 +1,4 @@
-# Correction exercice 2.1 : questions et commandes git
+# Correction exercice 2.1 : prise en main de git
 
 1. Question (Q) : effectuez les configurations minimales à l'aide la commande `git config`
 

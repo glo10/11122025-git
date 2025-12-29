@@ -1,4 +1,4 @@
-# Exercice en autonomie
+# Exercices en autonomie
 
 ## Modalités
 
@@ -8,42 +8,42 @@
 
 ### Partie 1 : les bases
 
-1. Créer un nouveau dossier de travail
+1. Créez un nouveau dossier de travail
 2. Initialisez un dépôt git
-3. Faites la liaison entre votre dépôt local et le dépôt distant sur gitHub, GitLab ou BitBucket
-4. Créez un fichier *.gitignore* dont le contenu doit exclure le sous-dossier *img*.
-5. Faites votre premier commit
+3. Effectuez la liaison entre votre dépôt local et le dépôt distant sur gitHub, GitLab ou BitBucket
+4. Créez un fichier *.gitignore* excluant le dossier *img*.
+5. Effectuez votre premier commit
 6. Renommez le nom de la branche *master* en *main* 
-7. Créez et (dé)placez-vous dans une branche nommée *feature/ex-part1*
-8. Créez un sous-dossier *img*
-9. Ajouter le fichier *.gitkeep* dans *img*.
+7. Créez et (dé)placez-vous dans une branche nommée *feature/j1/p1*
+8. Créez un dossier *img*
+9. Ajoutez le fichier *.gitkeep* dans *img*.
 10. Effectuez un commit en respectant la convention de nommage Angular.
-11. Créez fichier README.md à la racine contenant une liste des objets de votre choix parmi la liste suivante ou à partir de votre imagination débordante :
+11. Créez  un fichier README.md à la racine contenant une liste des objets de votre choix parmi la liste suivante ou à partir de votre imagination débordante :
 - Fruits
 - Voitures
 - Sandwich
 - Jeux
 - Films
 - Etc.
-12. Effectuez un ou plusieurs commits sur cette branche *feature/ex-part1*
+12. Effectuez un ou plusieurs commits sur cette branche *feature/j1/p1*
 
 ---
+git statu
+### Partie 2 : consolidation
 
-### Partie 2 : les bases
-
-1. Créez une nouvelle branche *feature/ex-part2*
+1. Créez une nouvelle branche *feature/j1/p2*
 2. Créez le fichier *README.md* avec une autre liste d'objet.
-3. Faites une capture d’écran de l’état de votre dépôt et enregistrez le fichier dans le sous-dossier *img/*.
-4. Effectuez un commit votre travail en respectant les bonnes pratiques de commit [voir l'annexe partie commits](./../annexe.md).
-4. Faites à nouveau une capture d’écran de votre dépôt et enregistrez le fichier dans le sous-dossier *img/*.
-5. Retirez la ligne contenant *img* dans le *.gitignore*.
-6. Effectuez un commit
+3. Faites une capture d’écran de l’état de votre dépôt et enregistrez le fichier dans le dossier *img/*.
+4. Effectuez un commit de votre travail en respectant les bonnes pratiques de commit [voir l'annexe partie commits](./../annexe.md).
+5. Faites  une nouvelle  capture d’écran de votre dépôt et enregistrez le fichier dans le dossier *img/*.
+6. Retirez la ligne contenant *img* dans le *.gitignore*.
+7. Effectuez un commit
 
 ---
 
-### Partie 3 : modifier un message commit
+### Partie 3 : modifier un message de commit
 
-1. Toujours dans la branche *feature/ex-part2*, effectuez des changements, ajoutez ses changements sans écrire un nouveau message de commit.
+1. Toujours dans la branche *feature/j1/p2*, effectuez des changements, ajoutez ses changements sans écrire un nouveau message de commit.
 2. Modifiez le dernier message de commit par un autre message.
 
 #### Aide
@@ -52,7 +52,7 @@
 2. Effectuez un commit en modifiant le dernier message de commit (sans en créer un nouveau) : `git commit --amend`
 - Votre éditeur (celui configuré à l'installation) s'ouvre et vous pouvez éditer votre message puis l'enregistrer.
 
-##### Cas particulier éditeur VIM
+##### Cas particulier  de léditeur VIM
 
 1. Tapez sur la touche *Echap* puis sur la lettre `i` pour passer en mode édition.
 2. Modifier votre message de commit
@@ -63,50 +63,49 @@
 
 ### Partie 4 : fusion des branches
 
-1. Fusionnez la branche *feature/ex-part1* dans la branche *main*.
+1. Fusionnez la branche *feature/j1/p1* dans la branche *main*.
 - En cas de conflit, résolvez le conflit en lisant le diapo du cours 57
-2. Fusionnez la branche *feature/ex-part2* dans la branche *main*.
+2. Fusionnez la branche *feature/j1/p2* dans la branche *main*.
 - En cas de conflit, résolvez le conflit en lisant le diapo du cours 57
-3. Créez une nouvelle branche *feature/ex-part4* à partir de la branche *main* propre.
+3. Créez une nouvelle branche *feature/j1/p4* à partir de la branche *main* propre.
 4. Modifiez le fichier *README.md* en ajoutant d'autres objets.
 5. Effectuez un commit en respectant les bonnes pratiques.
-6. Fusionnez la branche *feature/ex-part4* dans la branche *main*.
-7. Envoyez toutes vos modifications (branches *feature/ex-part1*, *feature/ex-part2*, *feature/ex-part3* et *main*) vers votre dépôt distant GitHub.
+6. Fusionnez la branche *feature/j1/p4* dans la branche *main*.
+7. Envoyez toutes vos modifications (branches *feature/j1/p1*, *feature/j1/p2*, *feature/j1/p4* et *main*) vers votre dépôt distant GitHub.
 
 ---
 
 ### Partie 5 : Dépôt distant
 
 Depuis votre compte GitHub, à partir du dépôt où vous avez envoyé précédemment votre travail.
-1. Créez une nouvelle branche *feature/ex-part5* à partir de la branche *main* depuis GitHub.
-2. Modifiez le fichier *README.md* en ajoutant encore d'autres objets depuis GitHub.
-3. A partir d'ici, toutes les opérations se font en local, effectuez un commit en respectant les bonnes pratiques depuis GitHub.
-4. Récupérez les modifications du dépôt distant (aide commande à effectuer `git checkout -b feature/ex-part5 --track origin/feature/ex-part5`).
-5. Fusionnez la branche *feature/ex-part5* dans la branche *main* en local.
+1. Créez une nouvelle branche *feature/j1/p5* à partir de la branche *main* depuis GitHub.
+2. Modifiez le fichier *README.md* en ajoutant encore d'autres objets depuis GitHub et effectuez votre commit.
+3. A partir d'ici, toutes les opérations se font en local, récupérez les modifications du dépôt distant (aide commande à effectuer `git checkout -b feature/j1/p5 --track origin/feature/j1/p5`).
+5. Fusionnez la branche *feature/j1/p5* dans la branche *main* en local.
 
 ---
 
-### Partie 6 : Mettre de côté les modifications
+### Partie 6 : mettre de côté les modifications en cours
 
-1. Créez une nouvelle branche nommée *feature/ex-part-6* à partir de la branche *main* en local.
-2. Modifiez le fichier *README.md* encore d'autres objets.
+1. Créez une nouvelle branche nommée *feature/j1/p6* à partir de la branche *main* en local.
+2. Modifiez le fichier *README.md*  en ajoutant d'autres objets.
 3. Mettez votre travail de côté (à l'aide de la commande `git stash`)
 
 ---
 
 ### Partie 7 : tag et application des modifications mises de côté
 
-1. Créez une nouvelle branche nommée *feature/ex-part7* toujours à partir de votre branche *main*.
+1. Créez une nouvelle branche nommée *feature/j1/p7*  à partir de votre branche *main*.
 2. Modifiez le fichier *README.md* en ajoutant encore d'autres objets.
 3. Effectuez un commit en respectant les bonnes pratiques
-4. Revenez sur la branche *feature/ex-part6*.
+4. Revenez sur la branche *feature/j1/p6*.
 5. Récupérez le travail mis de côté (`git stash apply`) et effectuez un nouveau commit
-6. Fusionnez la branche *feature/ex-part6* dans votre branche *feature/ex-part7*.
+6. Fusionnez la branche *feature/j1/p6* dans votre branche *feature/j1/p7*.
 7. Résolvez le conflit et effectuez un commit de résolution de conflit.
-8. Fusionnez la branche *feature/ex-bonus/part-7* dans la branche *main*.
+8. Fusionnez la branche *feature/j1/p7* dans la branche *main*.
 9. Ajoutez une version(tag) au dernier commit (`git tag v1.0.0`)
 10. Analysez l'état de votre dépôt à l'aide de la commande `git log`
-11. Envoyez vers votre dépôt distant GitHub toutes vos branches locales
+11. Envoyez toutes vos branches locales vers votre dépôt distant GitHub 
 12. En local, supprimez toutes les branches sauf la branche *main* (pour supprimer une branche `git branch -d branch_name`)
 
 PS : avec l'option `-d`, s'il y a des travaux qui n'ont pas été mergé sur la branche principale, *Git* empêchera la suppression. 
@@ -114,15 +113,15 @@ Avec l'option `-D`, la suppression est immédiate peu importe l'état de la bran
 
 ---
 
-### Partie 8 : patchs
+### Partie 8 : patch
 
 Un collègue est très intéressé par votre sandwich végan qu'il vous demande de lui partager pour qu'il puisse l'utiliser dans son projet.
 
-1. Depuis la documentation de la commande `git format-patch`, créez un patch associé au commit qui a ajouté le sandwich dans le projet. L'extraction de votre patch doit se faire dans le dossier /patchs à la racine de votre projet.
+1. Depuis la documentation de la commande `git format-patch`, créez un patch associé au commit qui a ajouté le sandwich dans le projet. L'extraction de votre patch doit se faire dans le dossier /patches à la racine de votre projet.
 2. Créez un nouveau projet Git, en dehors du projet en cours.
 3. Effectuez un premier commit sur ce nouveau dépôt.
 4. Copiez/collez le dossier patchs/ d'un dépôt (celui d'extraction) à l'autre (vers le nouveau, celui qui va l'appliquer) 
-5. Appliquez le patch extrait du dossier /patchs dans le nouveau dépôt.
+5. Appliquez le patch extrait du dossier /patches dans le nouveau dépôt.
 
 ---
 
@@ -168,11 +167,11 @@ liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre 
 9. Depuis GitHub, vous créez une nouvelle branche pour apporter une correction à votre menu
 10. Vous récupérez cette nouvelle branche en local pour y ajouter vos corrections
 
-### Partie 7 : issue et Pull Request
+### Partie 7 : *issue*
 
-11. Vous partagez votre dépôt distant à **glo10**(invitation collaborateur sur GitHub avec le pseudo glo10) pour lui demander son avis en créant une issue depuis GitHub et lui assignant dessus.
+11. Vous partagez votre dépôt distant à **glo10**(invitation collaborateur sur GitHub avec le pseudo glo10) pour lui demander son avis en créant une issue depuis GitHub et l ›assigner à *glo10*.
 
-#### Aide créant d'issue
+#### Aide pour créer un *issue*
 
 ![iss1](./img/issue1.jpg)
 ![iss2](./img/issue2.jpg)

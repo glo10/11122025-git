@@ -28,7 +28,7 @@
 12. Effectuez un ou plusieurs commits sur cette branche *feature/j1/p1*
 
 ---
-git statu
+
 ### Partie 2 : consolidation
 
 1. Créez une nouvelle branche *feature/j1/p2*
@@ -115,13 +115,13 @@ Avec l'option `-D`, la suppression est immédiate peu importe l'état de la bran
 
 ### Partie 8 : patch
 
-Un collègue est très intéressé par votre sandwich végan qu'il vous demande de lui partager pour qu'il puisse l'utiliser dans son projet.
+Un collègue est très intéressé par l'un de vos objets que vous avez ajouté précédemment et l'aimerait le récupérer sur un autre projet à lui.
 
-1. Depuis la documentation de la commande `git format-patch`, créez un patch associé au commit qui a ajouté le sandwich dans le projet. L'extraction de votre patch doit se faire dans le dossier /patches à la racine de votre projet.
-2. Créez un nouveau projet Git, en dehors du projet en cours.
+1. Depuis la documentation de la commande `git format-patch`, créez un patch de plusieurs commit incluant le commit ayant ajouté le fameux objet dans le projet. L'extraction de votre patch doit se faire dans le dossier */patches* à la racine de votre projet.
+2. Créez un nouveau projet *Git*, en dehors du projet en cours.
 3. Effectuez un premier commit sur ce nouveau dépôt.
-4. Copiez/collez le dossier patchs/ d'un dépôt (celui d'extraction) à l'autre (vers le nouveau, celui qui va l'appliquer) 
-5. Appliquez le patch extrait du dossier /patches dans le nouveau dépôt.
+4. Copiez/collez le dossier *patches/* d'un dépôt (celui d'extraction) à l'autre (vers le nouveau, celui qui va l'appliquer) 
+5. Appliquez uniquement le patch ayant introduit le fameux objet et ignorez les autres fichiers du dossier */patches*.
 
 ---
 

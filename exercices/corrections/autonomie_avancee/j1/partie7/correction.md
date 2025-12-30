@@ -1,8 +1,9 @@
-# Correction J1 partie 7 : tag et application des modifications mises de côté
+# Correction J1 partie VII : tag et application des modifications mises de côté
 
 1. Question (Q) : créez une nouvelle branche nommée *feature/j1/p7* à partir de votre branche *main*.
 ```bash
-# Réponse R
+# Réponse (R)
+git checkout main
 git checkout -b feature/j1/p7
 ```
 2. Q : modifiez le fichier *README.md* en ajoutant encore d'autres objets.
@@ -30,7 +31,7 @@ git checkout feature/j1/p7
 git merge feature/j1/p6
 ```
 7. Q : résolvez le conflit et effectuez un commit de résolution de conflit.
-- R : En cas de conflit, résolvez le conflit comme nous l'avons vu en cours et en relisant le diapo du cours page 57
+- R : en cas de conflit, résolvez le conflit.
 8. Q : fusionnez la branche *feature/j1/p7* dans la branche *main*.
 ```bash
 # R
@@ -51,14 +52,18 @@ git log
 ```bash
 # R
 git push
-# Pour envoyer également les tags
-git push --tag
+git push --tag # pour envoyer également les tags
 ```
 12. Q : en local, supprimez toutes les branches sauf la branche *main* (pour supprimer une branche `git branch -d branch_name`)
 
-PS : avec l'option `-d`, s'il y a des travaux qui n'ont pas été mergé sur la branche principale, *Git* empêchera la suppression. 
-Avec l'option `-D`, la suppression est immédiate peu importe l'état de la branche.
+PS : avec l'option `-d`, s'il y a des travaux qui n'ont pas été mergés sur la branche principale, *Git* empêchera la suppression de la branche.
+Avec l'option `-D`, la suppression est immédiate peu importe si la branche a été fusionnée ou non dans *main*.
 ```bash
 # R
-git branch -D  feature/j1/*
+git branch -d feature/j1/p1
+git branch -d feature/j1/p2
+git branch -d feature/j1/p4
+git branch -d feature/j1/p5
+git branch -d feature/j1/p6
+git branch -d feature/j1/p7
 ```

@@ -1,9 +1,9 @@
-# Correction partie II J1 : consolidation
+# Correction J1 partie II : consolidation
 
 1. Question (Q) : créez une nouvelle branche *feature/j1/p2*
 ```bash
 # Réponse (R)
-git checkout main # toujours depuis main la création d'une nouvelle branche
+git checkout main # création depuis la branche principale main
 git checkout -b feature/j1/p2
 ```
 2. Q : créez le fichier *README.md* avec une autre liste d'objet.
@@ -17,9 +17,9 @@ git add README.md img/
 git commit -m "feat: new fruits"
 ```
 5. Q : faites une nouvelle capture d’écran de votre dépôt et enregistrez le fichier dans le dossier *img/*.
-- R : cf dossier [img/](./img/)
+- R : cf. dossier [img/](./img/)
 6. Q : retirez la ligne contenant *img* dans le *.gitignore*.
-- R : cf fichier [.gitignore](./.gitignore)
+- R : cf. fichier [.gitignore](./.gitignore)
 7. Q : effectuez un commit
 ```bash
 # Réponse (R)

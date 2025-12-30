@@ -1,4 +1,4 @@
-# Correction partie I J1
+# Correction J1 partie I : les bases
 
 1. Question (Q) : créez un nouveau dossier de travail
 2. Q : initialisez un dépôt git

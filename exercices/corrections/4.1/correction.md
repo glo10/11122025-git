@@ -141,12 +141,13 @@ git diff a0256be f886b02 README.md
 
 ## Partie V : format-patch
 
-20. Q: utilisez la commande `git format-patch HEAD -1 -o ./patches` pour extraire les changements du dernier commit dans un fichier *0001-[message-commit].patch* dans le dossier */patches/* (nouvellement crée)
+20. Q: votre sandwich burger fait fureur, collègues sont intéressés et vous décidez de créer un patch à l'aide de la commande `git format-patch -o ./patches 01a8c5b` pour extraire les changements depuis le commit juste avant l'ajout de votre sandwich burger.
+PS : *01a8c5b* à remplacer par le hash du commit précédent le commit ayant introduit le [burger.md](./burger.md) 
 ```bash
 # R
-git format-patch HEAD -1 -o ./patches
+git format-patch -o ./patches 01a8c5b
 ```
-- Allez dans le dossier [./patches](./pactches) pour voir le fichier généré par la commande précédente
+- Allez dans le dossier [./patches](./pactches) pour voir les fichiers générés par la commande précédente
 21. Q : créez un nouveau dossier en dehors votre projet git encore et initialisez un nouveau projet git
 - Attention à ne pas initialiser un dépôt git dans un autre dépôt git
 ```bash
@@ -166,10 +167,11 @@ git branch -M main
 23. Q : copiez/collez le dossier */patches/* du premier dépôt au second dépôt (à la racine du projet)
 - R : illustration de l'arborescence des dossiers dans le nouveau projet git
 ![arbo](../img/arbo_new_project.jpg)
-24. Q : depuis le nouveau dépôt local, exécutez la commande `git am --3way ./patches`
+24. Q : depuis le nouveau dépôt local, exécutez la commande `git apply --3way ./patches/fichier_commit_burger.patch`
 ```bash
-git am --3way ./patches # option --3way en cas de conflit (ce sujet sera abordé plus tard)
+git apply --3way ./patches/fichier_commit_burger.patch # option --3way en cas de conflit (ce sujet sera abordé plus tard)
 ```
+PS : remplacer *fichier_commit_burger.patch* par le chemin réelle sur votre dépôt de ce fichier normalement commençant par ***00*** et finissant par ***.patch***
 25. Q : observez le résultat et regardez l'état de votre dépôt ainsi que l'historique des commandes
 ```bash
 # R

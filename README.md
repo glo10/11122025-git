@@ -1,5 +1,9 @@
 # Git
 
+## Corrections des exercices 
+
+[corrections de tous les exercices](./exercices/corrections/)
+
 ## Installations
 
 ### GIT

@@ -1,14 +1,19 @@
-# Correction J2 partie 1 : planter le décor
+# Correction J2 partie I : planter le décor
 
-1. Question (Q) : pour chaque élément, créez une nouvelle branche et ajoutez le contenu puis effectuez un commit.
+0. Question (Q) : créez un nouveau projet *Git* 
+```bash
+# Réponse (R)
+git init # s'assurer au préalable d'être au bon endroit et éviter d'avoir un projet Git inclus dans un autre projet Git
+```
+1. Q : pour chaque élément, créez une nouvelle branche et ajoutez le contenu puis effectuez un commit.
 Les différents fichiers sont :
 - **TODO.md**
 - **menu.md**
 - **playlist.md**
 - **animation.md**
 ```bash
-# Réponse (R)
-# Au préalable, il faut faire un 1er commit sur la branche principale avant de commencer la création des nouvelles branches
+# R
+# Au préalable, il faut faire un 1er commit sur la branche principale avant de commencer à travailler avec des nouvelles branches
 # Premier commit
 touch README.md
 git add README.md
@@ -51,4 +56,4 @@ git merge feature/playlist
 git merge feature/animation
 git merge feature/playlist-family
 ```
-- Resolvez le conflit comme nous l'avons abordé dans le cours page 57 et dans les exercices précédents
+- Resolvez le conflit sur la playlist comme nous l'avons vu dans le cours et les exercices précédentes

@@ -1,13 +1,12 @@
-# Correction partie 4 : mettre de côté les films et séries
+# Correction J2 partie IV : mettre de côté les films et séries
 
-Vous créez une nouvelle branche pour faire une sélection des films et séries à regarder durant ses vacances de fin d'année dans un fichier *netflix.md*.
+6. Question : vous créez une nouvelle branche pour faire une sélection des films et séries à regarder durant ses vacances de fin d'année dans un fichier *netflix.md*.
 A 20% de la fin de cette liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre votre travail en cours, vous avez décidé :
-- tout d'abord, de le mettre de côté vos modifications
-- ensuite de modifier la playlist
+- tout d'abord, de mettre de côté vos modifications
+- ensuite, de modifier la playlist
 - enfin, de revenir sur la branche dédiée aux films et séries pour terminer votre travail.
 ```bash
-# R
-## Création de la nouvelle branche pour ajouter des films et séries
+# Réponse
 git checkout main
 git checkout -b feature/netflix
 touch netflix.md # remplissez ce fichier avec des films et séries

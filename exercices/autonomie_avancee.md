@@ -135,6 +135,7 @@ PS : Partie I à V en local, Partie VI depuis GitHub
 
 ### Partie 1 : planter le décor
 
+0. Créez un nouveau projet *Git*
 1. Pour chaque élément, créez une nouvelle branche et ajoutez le contenu puis effectuez un commit.
 Les différents fichiers sont :
 - **TODO.md**
@@ -146,16 +147,19 @@ Les différents fichiers sont :
 
 ### Partie 2 : modifier votre historique
 
-4. Vous décidez de faire un rebase pour n'avoir qu'un seul commit de toutes les modifications que vous avez effectué sur votre projet en utilisant la commande `git rebase --help`
+4. Vous décidez de faire un rebase pour n'avoir qu'un seul commit de toutes les modifications que vous avez effectué sur votre projet en utilisant la commande `git rebase --help` pour lire la documentation de cette commande et bien l'utiliser dans notre contexte
 
 ### Partie 3 : partager votre travail dans un dossier d'extraction
 
-5. Votre ami vous demande de lui partager des fichiers d'extractions de votre travail pour qu'il puisse les copier dans son projet.
+5. Votre ami(e) vous demande de lui partager des fichiers d'extractions de votre travail pour qu'il puisse les s'inspirer de votre travail pour ses préparatifs.
 
 ### Partie 4 : Mettre de côté les films et séries
 
-6. Vous créez une nouvelle branche pour faire une sélection des films et séries à regarder durant ses vacances de fin d'année dans un fichier *netflix.md*. A 20% de la fin de cette
-liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre votre travail en cours, vous avez décidé de le mettre de côté, faire la modification de la playlist puis revenir sur les films et séries pour tout terminer.
+6. Vous créez une nouvelle branche pour faire une sélection des films et séries à regarder durant ses vacances de fin d'année dans un fichier *netflix.md*.
+A 20% de la fin de cette liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre votre travail en cours, vous avez décidé :
+- tout d'abord, de mettre de côté vos modifications
+- ensuite, de modifier la playlist
+- enfin, de revenir sur la branche dédiée aux films et séries pour terminer votre travail.
 
 ### Partie 5 : tags
 
@@ -178,5 +182,10 @@ liste, votre entourage vous demande de modifier la playlist. Pour ne pas perdre 
 
 ### Partie 8 : défaire et modifier un commit
 
-12. Finalement, les films et séries s'avèrent ne pas être une bonne idée, vous préférez faire des activités dehors, vous décidez de défaire uniquement les changements effectués lors de l'ajout du fichier *netflix.md*
+12. Finalement, les films et séries s'avèrent ne pas être une bonne idée, vous préférez faire des activités à l'extérieur, vous décidez de défaire uniquement les changements effectués lors de l'ajout du fichier *netflix.md*
+Répondez à cette question sur les scénarios ci-dessous sans les implémenter forcément :
+- scenario 1 : Les modifications n'ont pas été envoyées sur *GitHub* et vous n'avez pas effectué de fusion dans la branche *main*
+- scenario 2 : même conditions que l'scenario 1 à la différence que vous souhaitiez garder la branche feature/netflix dans votre projet sans conserver les modifications effectuées
+- scenario 3 : vous avez envoyé les modifications de la branche *feature/netflix* sur *GitHub*
+- scenario 4 : vous avez fait un merge de *feature/netflix* dans *main*
 13. Le message de commit crée lors de l'action précédente ne vous convient pas, vous décidez de le supprimer ou de le modifier avant d'envoyer vos dernières mises à jour en ligne.
